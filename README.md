@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/linuxexp/angular-material-common.svg?branch=master)](https://travis-ci.org/linuxexp/angular-material-common)
+[![Build Status](https://travis-ci.org/linuxexp/angular-material-tdd.svg?branch=master)](https://travis-ci.org/linuxexp/angular-material-tdd)
 
 Boilerplate code to build full-blown Test Driven apps using angular, angular-material, Travis CICD
 
