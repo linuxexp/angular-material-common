@@ -4,6 +4,7 @@
 const path = require("path");
 const WebpackShellPlugin = require('webpack-shell-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 const config = {
     entry: [path.join(__dirname, 'app/libraries.js'), path.join(__dirname, 'app/app.js')],
@@ -77,6 +78,11 @@ if (process.env.NODE_ENV === "production") {
     // Uglify plugin
     // Offline plugin
     // Etc,
+    config.plugins.push(new UglifyJsPlugin({
+        uglifyOptions: {
+            compress: true,
+        }
+    }))
 }
 
 module.exports = config;

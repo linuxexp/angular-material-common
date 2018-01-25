@@ -43,6 +43,7 @@
     "karma-webpack": "^2.0.9",
     "lodash": "^4.17.4",
     "material-design-icons": "^3.0.1",
-    "mocha": "^4.1.0"
+    "mocha": "^4.1.0",
+    "uglifyjs-webpack-plugin": "^1.1.6"
   }
 }
